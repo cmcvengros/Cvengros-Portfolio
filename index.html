@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap 4 Portfolio/Resume Theme for Developers</title>
+    <title>Claire Cvengros Portfolio</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    
     
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
@@ -34,10 +34,10 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left rounded-circle" src="../P1430242.jpg" alt="profile image" width="250px"/>
+            <img class="profile-image img-fluid float-left rounded-circle" src="../Developer-Theme/photos/portfolio/P1430242.jpg" alt="profile image" width="250px"/>
             <div class="profile-content float-left">
                 <h1 class="name">Claire Cvengros</h1>
-                <h2 class="desc">Anthropology & Computer Science Graduate</h2>   
+                <h2 class="desc">Washington University in St. Louis Recent Graduate</h2>   
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/claire-cvengros-21817a170/"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/cmcvengros"><i class="fab fa-github-alt"></i></a></li>    
@@ -54,14 +54,22 @@
                         <h2 class="heading">About Me</h2>
                         <div class="content">
                             <p>Hello! My name is Claire Cvengros and I have recently graduated from Washington University in St. Louis with 
-                                a Bachelor of Arts in Anthropology and minors in Computer Science and Environmental Studies. I have spent my undergraduate
-                            years engaging in computer-based research for WashU's Anthropology department. With my Computer Science background,
-                        I have become passionate about web development and design principles, and want to continue learning about best practices in a 
-                        professional setting.  
-                    </p>
+                                a Bachelor of Arts in Anthropology and minors in Computer Science and Environmental Studies looking to begin my professional
+                                career. </p>
+                            
+                            <p>As an Anthropology student, I have always been passionate about how humans live, our differing customs and traditions, and 
+                                the way we interact with the tools we have created. Whether it be stone tools, written language, or motorized vehicles, humans
+                                 have continuously created technologies to enhance their quality of life, and computer technologies are no exception. To better understand 
+                                 human culture, I first had to understand their technology. Computers are arguably one of the most influential advancements in human history, 
+                                 and I became addicted to creating new programs and websites for humans to use and studying the way they interact with them. This was the reason I chose
+                                to study both Anthropology and Computer Science, as opposite as these fields may seem. In my future career, I strive to continue
+                            combining the two - by both studying how humans function, learning and creating new technologies, and how these technologies can 
+                            advance our culture.</p>
+  
                     <p>
-                        Additionally, I am passionate about environmental protection and promoting sustainability in our everyday lives.
-                        Some of my hobbies include biking, cooking, reading, listening to podcasts, and walking my dog.
+                        Additionally, I am also very passionate about environmental protection and promoting sustainability in our everyday lives, hence the Environmental Studies minor.
+                        I love animals, nature, and travelling, and have spent a lot of my time researching and protecting endangered species in West Africa on behalf of Washington University's Anthropology Department.
+        
                     </p>
 
 
@@ -73,7 +81,7 @@
                <section class="latest section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Latest Projects</h2>
-                        <p>All projects featured in this portfolio were created completely from scratch by Claire Cvengros using HTML5, CSS3, and Javascript via Microsoft Visual Studio Code.</p> 
+                        <p id="disclaimer">All projects featured in this portfolio were created completely from scratch by Claire Cvengros using HTML5, CSS3, and Javascript via Microsoft Visual Studio Code.</p> 
 
                         <div class="content">    
                                                
@@ -81,12 +89,12 @@
 
                                 
                                 <div class="featured-image has-ribbon">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="../latest project.png" alt="photo library" />
+                                    <img class="img-fluid project-image rounded shadow-sm" src="../Developer-Theme/photos/portfolio/latest project.png" alt="photo library" />
                                     </a>
                                     
                                 </div>
                                 
-                                <h3 class="title mb-3"><target="_blank">Personal Photo Gallery</></h3>
+                                <h3 class="title mb-3"><target="_blank">Personal Photo Gallery</h3>
                                     
                                 <div class="desc text-left">                                    
                                     <p>As an avid travel and nature lover, I am very passionate about photography and capturing my adventures on film. 
@@ -100,10 +108,10 @@
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="../Screen Shot 2020-05-27 at 3.26.21 PM.png" alt="brand redesign" />
+                                <img class="img-fluid project-image rounded shadow-sm" src="../portfolio/brand redesign.png" alt="brand redesign" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://wustlcse204.github.io/06-brand-redesign-cmcvengros-1/" target="_blank">Brand Redesign - Steinberg Skating Rink</a></h3>
+                                    <h3 class="title"><target="_blank">Brand Redesign - Steinberg Skating Rink</a></h3>
                                     <p class="mb-2">For this project, I was tasked with choosing an existing site I believed needed a 'makeover' and redesigning the website's layout.
                                         I chose to redesign the website for Steinberg Skating Rink, an Ice Skating Rink frequented by WashU students and local St. Louisans.
                                     </p>
@@ -112,115 +120,69 @@
                             </div><!--//item-->
                             
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="../portfolio/todo list.png" alt="javascript to do list" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard - Bootstrap 4 Portfolio Template for Software Developers</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                    <h3 class="title"><target="_blank">ToDo List</a></h3>
+                                    <p class="mb-2">This is a simple ToDo list created with Javascript. On this app, users can add new ToDo items, cross them off, and delete from the list entirely. Since this was a pretty open-ended project, I had a lot of fun playing around with colors and simple design elements. </p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit my site</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
                              <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="project name" />
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="../portfolio/insta clone.png" alt="instagram clone" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance - Bootstrap 4 Portfolio Template for Aspiring Full Stack Developers</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                    <h3 class="title">Instagram Clone</h3>
+                                    <p class="mb-2">For this project, students were assigned to recreate Instagram's web interface. This was one of the more difficult projects and my interface could use some work, but I had fun playing with space and working with images.</p>
+                                    <p><a class="more-link" href="https://wustlcse204.github.io/05-instagram-clone-cmcvengros/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit my site</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Bootstrap 4 Template for Mobile Startups</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->                            
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Bootstrap 4 Template for WebDev Agencies and Freelance Developers</a></h3>
-                                    <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+                           
                             
                         </div><!--//content-->  
                     </div><!--//section-inner-->                
                 </section><!--//section-->
                 
-                <section class="projects section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Other Projects</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank">Pillar - Free Bootstrap 4 Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Bootstrap 4 Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            
-                            <a class="btn btn-cta-secondary" href="#">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+               
                 
                 <section class="experience section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
-                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2013 - 2014)</span></h3>
-                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
-                            </div><!--//item-->
+                                <h3 class="title">Research Assistant - <span class="place">Washington University in St. Louis</a></span> <span class="year">(2017 - Present)</span></h3>
+                                <p>Behavioral research and welfare assessment for endangered species in Western Africa on behalf of Washington University's
+                                    Anthropology Department. 
+                                </p>
+                                <ul>
+                                    <li>Managed, analyzed, and synthesized large sets of data</li>
+                                    <li>Piloted novel research projects that involved critical, time-intensive, and technical troubleshooting
+                                    </li>
+                                    <li>Led team surveys and contextual inquiries to enhance usability of research software and clarity of protocols
+                                    </li>
+                                    <li>Developed experimental protocols and prepared technical reports regarding proper data gathering and analysis techniques
+                                    </li>
+                                </ul>
+                         
                             
                             <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <h3 class="title">Camp & NatureStart Programs Counselor - <span class="place">Chicago Zoological Society</a></span> <span class="year">(2017 - 2019)</span></h3>
+                                <p>Provided education and planned activities for children ages 4-14. High degree of collaboration amongst zoo staff and communication with a wide variety of audiences.</p>
                             </div><!--//item-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">Swim Instructor - <span class="place">Goldfish Swim School</a></span> <span class="year">(June - August 2016)</span></h3>
+                            <p>Facilitated swim lessons for children aged 4 months-13 years and served as lifeguard for swim lessons, family swims, and birthday</p>
+                        </div><!--//item-->
                             
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                <section class="github section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
-                        
-                        <div id="github-graph" class="github-graph">
-
-                        </div><!--//github-graph-->
-
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                        
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
+                
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
                  <aside class="info aside section">
@@ -236,534 +198,139 @@
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
                 
-                <aside class="skills aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--/<!DOCTYPE html>
-                                        <html lang="en">
-                                        <head>
-                                            <title>Claire Cvengros Portfolio</title>
-                                            <!-- Meta -->
-                                            <meta charset="utf-8">
-                                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                            <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
-                                            <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-                                            
-                                            
-                                            <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-                                            <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-                                            
-                                            <!-- FontAwesome JS -->
-                                            <script defer src="assets/fontawesome/js/all.js"></script>
-                                            
-                                            <!-- Global CSS -->
-                                            <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-                                            
-                                            <!-- github calendar css -->
-                                            <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-                                            <!-- github activity css -->    
-                                            <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-                                            <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-                                            
-                                            <!-- Theme CSS -->  
-                                            <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-                                            
-                                        </head> 
-                                        
-                                        <body>
-                                            <!-- ******HEADER****** --> 
-                                            <header class="header">
-                                                <div class="container clearfix">                       
-                                                    <img class="profile-image img-fluid float-left rounded-circle" src="../Developer-Theme/photos/portfolio/P1430242.jpg" alt="profile image" width="250px"/>
-                                                    <div class="profile-content float-left">
-                                                        <h1 class="name">Claire Cvengros</h1>
-                                                        <h2 class="desc">Washington University in St. Louis Recent Graduate</h2>   
-                                                        <ul class="social list-inline">
-                                                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/claire-cvengros-21817a170/"><i class="fab fa-linkedin-in"></i></a></li>
-                                                            <li class="list-inline-item"><a href="https://github.com/cmcvengros"><i class="fab fa-github-alt"></i></a></li>    
-                                                        </ul> 
-                                                    </div><!--//profile-->
-                                                </div><!--//container-->
-                                            </header><!--//header-->
-                                            
-                                            <div class="container sections-wrapper">
-                                                <div class="row">
-                                                    <div class="primary col-lg-8 col-12">
-                                                        <section class="about section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading">About Me</h2>
-                                                                <div class="content">
-                                                                    <p>Hello! My name is Claire Cvengros and I have recently graduated from Washington University in St. Louis with 
-                                                                        a Bachelor of Arts in Anthropology and minors in Computer Science and Environmental Studies looking to begin my professional
-                                                                        career. </p>
-                                                                    
-                                                                    <p>As an Anthropology student, I have always been passionate about how humans live, our differing customs and traditions, and 
-                                                                        the way we interact with the tools we have created. Whether it be stone tools, written language, or motorized vehicles, humans
-                                                                         have continuously created technologies to enhance their quality of life, and computer technologies are no exception. To better understand 
-                                                                         human culture, I first had to understand their technology. Computers are arguably one of the most influential advancements in human history, 
-                                                                         and I became addicted to creating new programs and websites for humans to use and studying the way they interact with them. This was the reason I chose
-                                                                        to study both Anthropology and Computer Science, as opposite as these fields may seem. In my future career, I strive to continue
-                                                                    combining the two - by both studying how humans function, learning and creating new technologies, and how these technologies can 
-                                                                    advance our culture.</p>
-                                          
-                                                            <p>
-                                                                Additionally, I am also very passionate about environmental protection and promoting sustainability in our everyday lives, hence the Environmental Studies minor.
-                                                                I love animals, nature, and travelling, and have spent a lot of my time researching and protecting endangered species in West Africa on behalf of Washington University's Anthropology Department.
-                                                
-                                                            </p>
-                                        
-                                        
-                                                                 
-                                                                </div><!--//content-->
-                                                            </div><!--//section-inner-->                 
-                                                        </section><!--//section-->
-                                            
-                                                       <section class="latest section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading">Latest Projects</h2>
-                                                                <p id="disclaimer">All projects featured in this portfolio were created completely from scratch by Claire Cvengros using HTML5, CSS3, and Javascript via Microsoft Visual Studio Code.</p> 
-                                        
-                                                                <div class="content">    
-                                                                                       
-                                                                    <div class="item featured text-center">
-                                        
-                                                                        
-                                                                        <div class="featured-image has-ribbon">
-                                                                            <img class="img-fluid project-image rounded shadow-sm" src="../Developer-Theme/photos/portfolio/latest project.png" alt="photo library" />
-                                                                            </a>
-                                                                            
-                                                                        </div>
-                                                                        
-                                                                        <h3 class="title mb-3"><target="_blank">Personal Photo Gallery</h3>
-                                                                            
-                                                                        <div class="desc text-left">                                    
-                                                                            <p>As an avid travel and nature lover, I am very passionate about photography and capturing my adventures on film. 
-                                                                                For this particular project, I wanted to create an archive of my favorite photos from some of my favorite places (there are far too many to simply post on Instagram!).
-                                                                                This site contains a main page, separate pages for each travel destination, and a page to support other photographers and interact with the Unsplash Random Photo Generator API. 
-                                                                            </p>
-                                        
-                                                                        </div><!--//desc-->         
-                                                                        <a class="btn btn-cta-secondary" href="https://wustlcse204.github.io/10-final-project-claire-cvengros/" target="_blank"><i class="fas fa-thumbs-up"></i>Visit my site!</a>                 
-                                                                    </div><!--//item-->
-                                                                    <hr class="divider" />
-                                                                    <div class="item row">
-                                                                        <a class="col-md-4 col-12" target="_blank">
-                                                                        <img class="img-fluid project-image rounded shadow-sm" src="../portfolio/brand redesign.png" alt="brand redesign" />
-                                                                        </a>
-                                                                        <div class="desc col-md-8 col-12">
-                                                                            <h3 class="title"><target="_blank">Brand Redesign - Steinberg Skating Rink</a></h3>
-                                                                            <p class="mb-2">For this project, I was tasked with choosing an existing site I believed needed a 'makeover' and redesigning the website's layout.
-                                                                                I chose to redesign the website for Steinberg Skating Rink, an Ice Skating Rink frequented by WashU students and local St. Louisans.
-                                                                            </p>
-                                                                            <p><a class="more-link" href="https://wustlcse204.github.io/06-brand-redesign-cmcvengros-1/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit my site</a></p>
-                                                                        </div><!--//desc-->                          
-                                                                    </div><!--//item-->
-                                                                    
-                                                                    <div class="item row">
-                                                                        <a class="col-md-4 col-12" target="_blank">
-                                                                        <img class="img-fluid project-image rounded shadow-sm" src="../portfolio/todo list.png" alt="javascript to do list" />
-                                                                        </a>
-                                                                        <div class="desc col-md-8 col-12">
-                                                                            <h3 class="title"><target="_blank">ToDo List</a></h3>
-                                                                            <p class="mb-2">This is a simple ToDo list created with Javascript. On this app, users can add new ToDo items, cross them off, and delete from the list entirely. Since this was a pretty open-ended project, I had a lot of fun playing around with colors and simple design elements. </p>
-                                                                            <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit my site</a></p>
-                                                                        </div><!--//desc-->                          
-                                                                    </div><!--//item-->
-                                                                    
-                                                                     <div class="item row">
-                                                                        <a class="col-md-4 col-12" target="_blank">
-                                                                        <img class="img-fluid project-image rounded shadow-sm" src="../portfolio/insta clone.png" alt="instagram clone" />
-                                                                        </a>
-                                                                        <div class="desc col-md-8 col-12">
-                                                                            <h3 class="title">Instagram Clone</h3>
-                                                                            <p class="mb-2">For this project, students were assigned to recreate Instagram's web interface. This was one of the more difficult projects and my interface could use some work, but I had fun playing with space and working with images.</p>
-                                                                            <p><a class="more-link" href="https://wustlcse204.github.io/05-instagram-clone-cmcvengros/" target="_blank"><i class="fas fa-external-link-alt"></i>Visit my site</a></p>
-                                                                        </div><!--//desc-->                          
-                                                                    </div><!--//item-->
-                                                                    
-                                                                   
-                                                                    
-                                                                </div><!--//content-->  
-                                                            </div><!--//section-inner-->                
-                                                        </section><!--//section-->
-                                                        
-                                                       
-                                                        
-                                                        <section class="experience section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading">Work Experience</h2>
-                                                                <div class="content">
-                                                                    <div class="item">
-                                                                        <h3 class="title">Research Assistant - <span class="place">Washington University in St. Louis</a></span> <span class="year">(2017 - Present)</span></h3>
-                                                                        <p>Behavioral research and welfare assessment for endangered species in Western Africa on behalf of Washington University's
-                                                                            Anthropology Department. 
-                                                                        </p>
-                                                                        <ul>
-                                                                            <li>Managed, analyzed, and synthesized large sets of data</li>
-                                                                            <li>Piloted novel research projects that involved critical, time-intensive, and technical troubleshooting
-                                                                            </li>
-                                                                            <li>Led team surveys and contextual inquiries to enhance usability of research software and clarity of protocols
-                                                                            </li>
-                                                                            <li>Developed experimental protocols and prepared technical reports regarding proper data gathering and analysis techniques
-                                                                            </li>
-                                                                        </ul>
-                                                                 
-                                                                    
-                                                                    <div class="item">
-                                                                        <h3 class="title">Camp & NatureStart Programs Counselor - <span class="place">Chicago Zoological Society</a></span> <span class="year">(2017 - 2019)</span></h3>
-                                                                        <p>Provided education and planned activities for children ages 4-14. High degree of collaboration amongst zoo staff and communication with a wide variety of audiences.</p>
-                                                                    </div><!--//item-->
-                                                                </div><!--//item-->
-                                                                <div class="item">
-                                                                    <h3 class="title">Swim Instructor - <span class="place">Goldfish Swim School</a></span> <span class="year">(June - August 2016)</span></h3>
-                                                                    <p>Facilitated swim lessons for children aged 4 months-13 years and served as lifeguard for swim lessons, family swims, and birthday</p>
-                                                                </div><!--//item-->
-                                                                    
-                                                                </div><!--//content-->  
-                                                            </div><!--//section-inner-->                 
-                                                        </section><!--//section-->
-                                                        
-                                                    </div><!--//primary-->
-                                                    <div class="secondary col-lg-4 col-12">
-                                                         <aside class="info aside section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading sr-only">Basic Information</h2>
-                                                                <div class="content">
-                                                                    <ul class="list-unstyled">
-                                                                        <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Burr Ridge, Illinois, USA</li>
-                                                                        <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>cmcven24@gmail.com</a></li>
-                                                                        <li><i class="fas fa-phone"></i><span class="sr-only">Phone:</span>+1 (630) 800-6709</a></li>
-                                                                    </ul>
-                                                                </div><!--//content-->  
-                                                            </div><!--//section-inner-->                 
-                                                        </aside><!--//aside-->
-                                                        
-                                        
-                                                        <aside class="education aside section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading">Education</h2>
-                                                                <div class="content">
-                                                                    <div class="item">                      
-                                                                        <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Anthropology</h3>
-                                                                        <h4 class="university">Washington University in St. Louis <span class="year">(2016-2020)</span></h4>
-                                                                        <h4 class="university">Minor in Computer Science</h4>
-                                                                        <h4 class="university">Minor in Environmental Studies</h4>
-                                        
-                                                                    </div><!--//item-->
-                                                                    <div class="item">
-                                                                        <h3 class="title">Exhange Program</h3>
-                                                                        <h4 class="university">University College Dublin, Ireland <span class="year">(January - May 2019)</span></h4>
-                                                                        <h4 class="university">Focus in: Environmental Geoscience & Zoology</h4>
-                                                                    </div><!--//item-->
-                                                                </div><!--//content-->
-                                                            </div><!--//section-inner-->
-                                                        </aside><!--//section-->
-                                        
-                                        
-                                                        <aside class="education aside section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading">Awards & Achievements </h2>
-                                                                <div class="content">
-                                                                    <div class="item">                      
-                                                                        <h3 class="title">Graduated with College Honors</h3>
-                                                                        <h4 class="university">Washington University in St. Louis <span class="year">(2020)</span></h4>
-                                                                       
-                                        
-                                                                    </div><!--//item-->
-                                                                    <div class="item">
-                                                                        <h3 class="title">Contributions to Anthropology Department Award</h3>
-                                                                        <h4 class="university">Washington University in St. Louis<span class="year">(2020)</span></h4>
-                                                                        
-                                                                    </div><!--//item-->
-                                                                </div><!--//content-->
-                                                            </div><!--//section-inner-->
-                                                        </aside><!--//section-->
-                                        
-                                        
-                                                        <aside class="skills aside section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading">Technical Skills</h2>
-                                                                <div class="content">
-                                                                    <p class="intro">
-                                                                        With a minor in Computer Science, I gained a lot of knowledge regarding programming, development, and commonly used software tools.</p>
-                                                                    
-                                                                    <div class="skillset">
-                                                                       
-                                                                        <div class="item">
-                                                                            <h3 class="level-title">Java 
-                                                                            <div class="level-bar">
-                                                                                <div class="level-bar-inner" data-level="90%">
-                                                                                </div>                                      
-                                                                            </div><!--//level-bar-->                                 
-                                                                        </div><!--//item-->
-                                                                        
-                                                                        <div class="item">
-                                                                            <h3 class="level-title">HTML5 & CSS3 </h3>
-                                                                            <div class="level-bar">
-                                                                                <div class="level-bar-inner" data-level="96%">
-                                                                                </div>                                      
-                                                                            </div><!--//level-bar-->                                 
-                                                                        </div><!--//item-->
-                                                                        
-                                                                        <div class="item">
-                                                                            <h3 class="level-title">Javascript </h3>
-                                                                            <div class="level-bar">
-                                                                                <div class="level-bar-inner" data-level="65%">
-                                                                                </div>                                      
-                                                                            </div><!--//level-bar-->                                 
-                                                                        </div><!--//item-->
-                                                                        
-                                                                        <div class="item">
-                                                                            <h3 class="level-title">Command Line Tools</h3>
-                                                                            <div class="level-bar">
-                                                                                <div class="level-bar-inner" data-level="75%">
-                                                                                </div>                                      
-                                                                            </div><!--//level-bar-->                                 
-                                                                        </div><!--//item-->
-                                        
-                                                                        <div class="item">
-                                                                            <h3 class="level-title">Web Design & Development</h3>
-                                                                            <div class="level-bar">
-                                                                                <div class="level-bar-inner" data-level="85%">
-                                                                                </div>                                      
-                                                                            </div><!--//level-bar-->                                 
-                                                                        </div><!--//item-->
-                                                                        
-                                                                        <div class="item">
-                                                                            <h3 class="level-title">Data Structures & Algorithms</h3>
-                                                                            <div class="level-bar">
-                                                                                <div class="level-bar-inner" data-level="75%">
-                                                                                </div>                                      
-                                                                            </div><!--//level-bar-->                                 
-                                                                        </div><!--//item-->
-                                        
-                                                                    </div>              
-                                                                </div><!--//content-->  
-                                                            </div><!--//section-inner-->                 
-                                                        </aside><!--//section-->
-                                                        
-                                                        
-                                                        
-                                                        
-                                        
-                                                        <aside class="testimonials aside section">
-                                                            <div class="section-inner shadow-sm rounded">
-                                                                <h2 class="heading" >Volunteer Experience</h2>
-                                                                <div class="content">
-                                                                    <div class="item">
-                                                                        <h3 class="title" id="volunteer">Nurse's Assistant - <span class="place">Elmhurst Hospital, IL</a></span> <span class="year">(June - August 2015)</span></h3>
-                                                                        <p>Performed basic patient care under supervision of RN and/or physician.</p>
-                                                                    </div><!--//item-->
-                                        
-                                                                    <div class="item">
-                                                                        <h3 class="title" id="volunteer">External Social Director - <span class="place">Chi Omega Sorority</a></span> <span class="year">(January - December 2018)</span></h3>
-                                                                        <p>Communicated with campus organizations and planned social events for sorority members.</p>
-                                                                    </div><!--//item-->
-                                                                    
-                                                                    
-                                                                </div><!--//content-->
-                                                            </div><!--//section-inner-->
-                                                        </aside><!--//section-->
-                                                                    
-                                                   
-                                                        
-                                                    
-                                                   
-                                                 
-                                                        
-                                                      
-                                                    </div><!--//secondary-->    
-                                                </div><!--//row-->
-                                            </div><!--//masonry-->
-                                            
-                                            <!-- ******FOOTER****** --> 
-                                            <footer class="footer">
-                                                <div class="container text-center">
-                                                        <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                                                        <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-                                                </div><!--//container-->
-                                            </footer><!--//footer-->
-                                         
-                                            <!-- Javascript -->          
-                                            <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-                                            <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-                                            <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-                                            <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-                                            <!-- github calendar plugin -->
-                                            <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-                                            <!-- github activity plugin -->
-                                            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-                                            <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
-                                            <!-- custom js -->
-                                            <script type="text/javascript" src="assets/js/main.js"></script>            
-                                        </body>
-                                        </html> 
-                                        
-                                        /level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-                <aside class="testimonials aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
-                            </div><!--//item-->
-                            
-                            <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
+
                 <aside class="education aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science</h3>
-                                <h4 class="university">University College London <span class="year">(2011-2012)</span></h4>
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Anthropology</h3>
+                                <h4 class="university">Washington University in St. Louis <span class="year">(2016-2020)</span></h4>
+                                <h4 class="university">Minor in Computer Science</h4>
+                                <h4 class="university">Minor in Environmental Studies</h4>
+
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 class="university">University of Bristol <span class="year">(2008-2011)</span></h4>
+                                <h3 class="title">Exhange Program</h3>
+                                <h4 class="university">University College Dublin, Ireland <span class="year">(January - May 2019)</span></h4>
+                                <h4 class="university">Focus in: Environmental Geoscience & Zoology</h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                <aside class="blog aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content">
 
+
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Awards & Achievements </h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title">Graduated with College Honors</h3>
+                                <h4 class="university">Washington University in St. Louis <span class="year">(2020)</span></h4>
+                               
+
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Contributions to Anthropology Department Award</h3>
+                                <h4 class="university">Washington University in St. Louis<span class="year">(2020)</span></h4>
+                                
+                            </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
+                </aside><!--//section-->
+
+
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Technical Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                With a minor in Computer Science, I gained a lot of knowledge regarding programming, development, and commonly used software tools.</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Java 
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 & CSS3 </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="65%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Command Line Tools</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Web Design & Development</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Data Structures & Algorithms</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="75%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
                 </aside><!--//section-->
                 
-                <aside class="list music aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
                 
-                <aside class="list conferences aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Conferences</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">WWDC 2020</a> (San Francisco)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a> (Seattle)</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
                 
-                <aside class="credits aside section">
+                
+
+                <aside class="testimonials aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Credits</h2>
+                        <h2 class="heading" >Volunteer Experience</h2>
                         <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://jquery.com/" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery RSS</a></li>
-                                
-                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
-                            </ul>
+                            <div class="item">
+                                <h3 class="title" id="volunteer">Nurse's Assistant - <span class="place">Elmhurst Hospital, IL</a></span> <span class="year">(June - August 2015)</span></h3>
+                                <p>Performed basic patient care under supervision of RN and/or physician.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title" id="volunteer">External Social Director - <span class="place">Chi Omega Sorority</a></span> <span class="year">(January - December 2018)</span></h3>
+                                <p>Communicated with campus organizations and planned social events for sorority members.</p>
+                            </div><!--//item-->
                             
-                            <hr/>
-                            
-                             <p class="pt-2">This Bootstrap 4 portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
-                             
-                             <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
-                            <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
-                            
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
                             
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
+                            
+           
+                
+            
+           
+         
+                
               
             </div><!--//secondary-->    
         </div><!--//row-->
